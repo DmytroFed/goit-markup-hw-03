@@ -1,0 +1,99 @@
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #e5e5e5;
+  font-size: 14px;
+}
+h2 {
+ font-size: 36px;
+  font-style: 700;
+  color: #212121; 
+}
+/* Header
+===================== */
+
+/* Nav
+===================== */
+.nav {
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-style: 700;
+  color: #000000;
+  text-decoration: none;
+}
+.logo-blue {
+  color: #2196f3;
+}
+.nav-link {
+}
+.nav-link-items {
+  text-decoration: none;
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* Contacts
+===================== */
+.contacts {
+}
+.contacts-items {
+  text-decoration: none;
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Section1
+===================== */
+.hero {
+  background-color: #2f303a;
+}
+.hero-text {
+  color: #ffff;
+  font-size: 44px;
+  text-align: center;
+  font-weight: 900;
+  line-height: 1.36;
+}
+.button {
+  display: inline-block;
+  vertical-align: top;
+  color: #ffff;
+  font-family: inherit;
+  font-size: 16px;
+  line-height 1.88;
+  background-color: #2196f3;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+/* Section2
+===================== */
+.advantage {
+font-size: 16px;  
+line-height 1.88;
+color: #212121;
+text-transform: uppercase;
+}
+.advantage-items {
+  color: #757575;
+  Line height: 1.71;
+}
+
+
+/* Section3
+===================== */
+
+/* Section4
+===================== */
+
+/* Footer
+===================== */
