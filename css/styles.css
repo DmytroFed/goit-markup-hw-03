@@ -1,18 +1,24 @@
+:root {
+  --fond-color: #2f303a;
+  --add-color: #2196F3;
+ }
 li {
   list-style-type: none; /* Убираем маркеры */
 }
-
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background-color: #e5e5e5;
-  font-size: 14px;
-}
+  background-color: #fff;
+} 
+a {
+  text-decoration: none;
+}   
 h2 {
- font-size: 36px;
+  font-size: 36px;
   font-style: 700;
   color: #212121; 
 }
+
 /* Header
 ===================== */
 
@@ -24,37 +30,45 @@ h2 {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-style: 700;
-  color: #000000;
+  color: var(--add-color);
   text-decoration: none;
 }
 .logo-blue {
-  color: #2196f3;
+  color: #000;
 }
 .nav-link {
 }
-.nav-link-items {
+.nav-link-item {
   text-decoration: none;
   color: #212121;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
+.contacts-item:hover,
+.nav-link-item:focus,
+.nav-link-item:hover,
+.addres-item:hover,
+.addres-item:focus {
+  color: var(--add-color);
+}
 
 /* Contacts
 ===================== */
 .contacts {
 }
-.contacts-items {
+.contacts-item {
   text-decoration: none;
   color: #757575;
   font-weight: 500;
   font-size: 14px;
 }
 
+
 /* Section1
 ===================== */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--fond-color);
 }
 .hero-text {
   color: #ffff;
@@ -69,11 +83,13 @@ h2 {
   color: #ffff;
   font-family: inherit;
   font-size: 16px;
-  line-height 1.88;
-  background-color: #2196f3;
+  line-height: 1.9;
+  background-color: var(--add-color);
   font-weight: 700;
   border-radius: 4px;
+  border: 0;
 }
+
 
 /* Section2
 ===================== */
@@ -83,7 +99,7 @@ line-height 1.88;
 color: #212121;
 text-transform: uppercase;
 }
-.advantage-items {
+.advantage-item {
   color: #757575;
   Line height: 1.71;
 }
@@ -91,9 +107,45 @@ text-transform: uppercase;
 
 /* Section3
 ===================== */
+.doing {
 
+}
 /* Section4
 ===================== */
-
+.team {
+  background-color: #F5F4FA;
+}
+.team-item {
+  background-color: #ffff;
+}
+.team-member {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  text-align: center;
+}
+.position {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.18;
+  text-align: center;
+}
 /* Footer
 ===================== */
+.footer {
+  background-color: var(--fond-color);
+}
+.logo-white {
+  color: #fff;
+}
+.address-text {
+  color: #fff;
+  line-height: 1.7;
+  font-style: normal;
+}
+.addres-item {
+  color: #fff;
+  line-height: 1.7;
+  font-style: normal;
+  color: rgba(255,255,255,0.6); /* Полупрозрачный цвет 60% */
+}
