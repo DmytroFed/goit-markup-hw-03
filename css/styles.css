@@ -99,6 +99,11 @@ h2 {
   cursor: pointer;
 }
 
+.button-pf:hover,
+.button-pf:focus {
+  background-color: var(--blue-color);
+  color: var(--main-color);
+}
 
 /* Section2
 ===================== */
@@ -197,6 +202,7 @@ text-transform: uppercase;
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
+/*-Кнопка-пример-*/
 .button-pf-blue {
   background-color: var(--blue-color);
   color: var(--main-color);
@@ -206,4 +212,5 @@ text-transform: uppercase;
   border-radius: 4px;
   font-size: 16px;
   line-height: 1.6;
+  cursor: pointer;
 }
