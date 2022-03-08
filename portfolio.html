@@ -12,81 +12,80 @@
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <title>goit-markup-hw-02</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 <!--Header-->
     <header class="header">
         <nav class="nav">
             <a class="logo" href="./index.html">Web<span class="logo-blue">Studio</span></a>
-            <ul class="nav-link">
-                <li><a class="nav-link-item" href="./index.html">Студия</a></li>
-                <li><a class="nav-link-item" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="nav-link-item" href="">Контакты</a></li>
+            <ul class="nav-list">
+                <li><a class="nav-list-item" href="./index.html">Студия</a></li>
+                <li><a class="nav-list-item" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="nav-list-item" href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="contacts">
-            <li><a class="contacts-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="contacts-item" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="contacts-header-list">
+            <li><a class="contacts-header-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="contacts-header-item" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
-<!--Наши работы-->
-    <section>
-        <ul class="menu-pf">
-            <li><button class="button-pf-blue" type="button">Все</button></li>
-            <li><button class="button-pf" type="button">Веб-сайты</button></li>
-            <li><button class="button-pf" type="button">Приложения</button></li>
-            <li><button class="button-pf" type="button">Дизайн</button></li>
-            <li><button class="button-pf" type="button">Маркетинг</button></li>
+<!--Наши работы=================-->
+    <section class="main-section">
+        <h2 hidden>Портфолио</h2>
+        <ul class="filter">
+            <li><button class="button filter-current" type="button">Все</button></li>
+            <li><button class="button filter-item" type="button">Веб-сайты</button></li>
+            <li><button class="button filter-item" type="button">Приложения</button></li>
+            <li><button class="button filter-item" type="button">Дизайн</button></li>
+            <li><button class="button filter-item" type="button">Маркетинг</button></li>
         </ul>
-    </section>    
-<!--Портфолио-->
-    <section>
+<!--Портфолио===================-->
         <ul class="works">
             <li class="works-box">
-                <img src="./imges/img01.jpg" alt="Ноутбук" width="370" height="294">
+                <img class="img" src="./imges/img01.jpg" alt="Ноутбук" width="370" height="294">
                 <h2 class="works-item">Технокряк</h2>
                 <p class="works-text">Веб-сайт</p>
             </li>
             <li class="works-box">
-                <img src="./imges/img02.jpg" alt="Баскетболисты" width="370" height="294">
-                <h2 class="works-item">Постер New Orlean vs Golden Star</h2>
+                <img class="img" src="./imges/img02.jpg" alt="Баскетболисты" width="370" height="294">
+                <h2 class="works-item">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
                 <p class="works-text">Дизайн</p>
             </li>
             <li class="works-box">
-                <img src="./imges/img03.jpg" alt="Банер ресторана" width="370" height="294">
-                <h2 class="works-item">Ресторан Seafood</h2>
+                <img class="img" src="./imges/img03.jpg" alt="Банер ресторана" width="370" height="294">
+                <h2 class="works-item">Ресторан <span lang="en">Seafood</span></h2>
                 <p class="works-text">Приложение</p>
             </li>
             <li class="works-box">
-                <img src="./imges/img04.jpg" alt="Наушники" width="370" height="294">
-                <h2 class="works-item">Проект Prime</h2>
+                <img class="img" src="./imges/img04.jpg" alt="Наушники" width="370" height="294">
+                <h2 class="works-item">Проект <span lang="en">Prime</span></h2>
                 <p class="works-text">Маркетинг</p>
             </li>
             <li class="works-box">
-                <img src="./imges/img05.jpg" alt="Два бокса" width="370" height="294">
-                <h2 class="works-item">Проект Boxes</h2>
-                <p>Приложение</p>
+                <img class="img" src="./imges/img05.jpg" alt="Два бокса" width="370" height="294">
+                <h2 class="works-item">Проект <span lang="en" lang="en">Boxes</span></h2>
+                <p class="works-text">Приложение</p>
             </li>
             <li class="works-box">
-                <img src="./imges/img06.jpg" alt="Монитор" width="370" height="294">
-                <h2 class="works-item">Inspiration has no Borders</h2>
+                <img class="img" src="./imges/img06.jpg" alt="Монитор" width="370" height="294">
+                <h2 class="works-item"><span lang="en">Inspiration has no Borders</span></h2>
                 <p class="works-text">Веб-сайт</p>
             </li>
             <li class="works-box">
-                <img src="./imges/img07.jpg" alt="Журнал" width="370" height="294">
-                <h2 class="works-item">Издание Limited Edition</h2>
+                <img class="img" src="./imges/img07.jpg" alt="Журнал" width="370" height="294">
+                <h2 class="works-item">Издание <span lang="en">Limited Edition</span></h2>
                 <p class="works-text">Дизайн</p>
             </li>
             <li class="works-box">
-                <img src="./imges/img08.jpg" alt="Бирка" width="370" height="294">
-                <h2 class="works-item">Проект LAB</h2>
+                <img class="img" src="./imges/img08.jpg" alt="Бирка" width="370" height="294">
+                <h2 class="works-item">Проект <span lang="en">LAB</span></h2>
                 <p class="works-text">Маркетинг</p>
             </li>
             <li class="works-box">
-                <img src="./imges/img09.jpg" alt="Сотрудник печатает на ноутбуке" width="370" height="294">
-                <h2 class="works-item">Growing Business</h2>
+                <img class="img" src="./imges/img09.jpg" alt="Сотрудник печатает на ноутбуке" width="370" height="294">
+                <h2 class="works-item"><span lang="en">Growing Business</span></h2>
                 <p class="works-text">Приложение</p>
             </li>
         </ul>
