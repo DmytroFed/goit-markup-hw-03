@@ -85,8 +85,8 @@ body {
 }
 /*--Button--*/
 .button {
-  color: var(--main-color);
   background-color: var(--accent-color);
+  color: var(--main-color);
   display: inline-block;
   vertical-align: top;
   font-family: inherit;
@@ -97,9 +97,9 @@ body {
 
 .button.primary {
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  font-weight: 700;
 }
 
 .button.primary:hover,
@@ -124,7 +124,6 @@ body {
 }
 .advantage-text {
   font-size: 14px;
-  font-weight: 400; 
   color: var(--secondary-text-color);
   Line height: 1.71;
   letter-spacing: 0.03em;
@@ -150,7 +149,6 @@ background-color: var(--team-fond-color);
 }
 .team-position {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
@@ -179,21 +177,21 @@ background-color: var(--team-fond-color);
 /* Portfolio 
 =========================*/
 /* Фильтр */
-.button.filter-item {
-  display: inline-block;
-  vertical-align: top;
+.button-item {
+  background-color: var(--team-fond-color);
   color: var(--primary-text-color);
-  font-family: inherit;
-  cursor: pointer;
   font-size: 16px;
   line-height: 1.6;
-  background-color: var(--team-fond-color);
-  font-weight: 500;
+  font-weight: 500;  
+  display: inline-block;
+  vertical-align: top;
+  font-family: inherit;
+  cursor: pointer;
   border: 0;
   border-radius: 4px;
 }
-.button.filter-item:hover,
-.button.filter-item:focus {
+.button-item:hover,
+.button-item:focus {
   background-color: var(--button-color);
   color: var(--main-color);
 }
@@ -212,30 +210,18 @@ background-color: var(--team-fond-color);
 .works-text {
   color: var(--secondary-text-color);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
 /*-Кнопка-пример-*/
 
-.button.filter.current {
-    background-color: var(--button-color);
-    color: var(--main-color);
-    font-size: 16px;
-    line-height: 1.6;
-    font-weight: 500;
-    letter-spacing: 0.03em;
+.button.current {
+  color: var(--main-color);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  background-color: var(--button-color);
 }
 
-/*
-   background-color: var(--button-color);
-    color: var(--main-color);
-    border-radius: 4px;
-    border: 0;
-    font-weight: 500;
-    border-radius: 4px;
-    font-size: 16px;
-    line-height: 1.6;
-    cursor: pointer;
-    letter-spacing: 0.03em;
-*/
